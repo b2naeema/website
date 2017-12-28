@@ -131,6 +131,25 @@ th, td {
     text-align: left;
 }
 
+table#t01 tr:nth-child(even) {
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+}
+table#t01 tr:nth-child(odd) {
+   background-color: black;
+    color: white;
+    opacity: 0.8;
+}
+table#t01 th	{
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+}
+</style>
+
+//////////////////////////// TABLE ENDS////////
+
 
 
 
