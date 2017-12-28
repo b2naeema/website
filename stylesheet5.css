@@ -4,6 +4,8 @@ div.all {
 	border: 2px red solid;
 }
 
+//////////////////////////////// Menubar///////////
+
 div.headings ul li{
 	margin:auto;
 	text-decoration: none;
@@ -78,9 +80,18 @@ div.dropdown:hover div.dropdown-content {
 
 
 
-
-
-
 body {
 	background-color: black;
 }
+
+
+h1 {
+	color: white; 
+	text-transform: uppercase;
+	text-align: center;
+	background-color: black
+	
+}
+
+
+
