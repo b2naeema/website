@@ -1,0 +1,9 @@
+div.all {
+	margin: auto;
+	width: 910px;
+	border: 2px red solid;
+}
+
+body {
+	background-color: black;
+}
