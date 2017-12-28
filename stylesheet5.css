@@ -101,4 +101,20 @@ h2 {
 }
 
 
+h3 {
+	color: black;
+	text-transform: uppercase;
+}
+
+a {
+	color: white;
+	list-style:none;
+	
+}
+
+span {
+	color: black;
+	font-style: italic;
+}
+
 
