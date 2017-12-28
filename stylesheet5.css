@@ -85,6 +85,25 @@ body {
 }
 
 
+
+p {
+	font-size: 1.3em;
+}
+
+p.text {
+	color: white;
+	background-color: black;
+	opacity: 0.8;
+	text-align: left;
+	}
+	
+br {
+  margin:0.5em; /* FF for instance */
+  
+}
+
+
+
 h1 {
 	color: white; 
 	text-transform: uppercase;
