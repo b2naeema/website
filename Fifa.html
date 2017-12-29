@@ -1,55 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <title>HTML</title> 
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>HTML</title>
 		
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="stylesheet5.css"> 
-  
-  <script type="text/javascript" src="styleswap.js"></script>
-  <script type="text/javascript" src="navbar.js"></script>
-  
-  
-</head>
+		<link rel="stylesheet" type="text/css" href="Stylesheet.css" title="fixed"/>
+		<link rel="alternate stylesheet" type="text/css" href="Stylesheet2.css" title="Resizable" />
+		<link rel="alternate stylesheet" type="text/css" href="Stylesheet3.css" title="Mobile"/>
+		
+		<script type="text/javascript" src="styleswap.js"></script>
+
+         <script type="text/javascript" src="navbar.js"></script>
+         <script type="text/javascript" src="dropdown2.js"></script>
+         
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width; initial-scale=1.0" />
 
 
-<body>
+	</head>
 
-            <div class="all">
+	<body>
+		
+		<div class="all">
 			<div>
 				<h1>FIFA 16</h1>
 			</div>
-			
-	 <ul>
-		<li>
-			<a href="index.html">Home</a>
-		</li>
-				    <li class="dropdown">
+
+			<ul>
+				<li>
+					<a href="Home.html">Home</a>
+				</li>
+				
+				<li class="dropdown">
 					<a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Games</a>
 					<div class="dropdown-content" id="myDropdown">
 						<a href="Gta.html">GTA V</a>
 						<a href="Fifa.html">Fifa 16</a>
 					</div>
 				</li>
-				
 				<li>
 					<a href="Feedback.html">Feedback</a>
 				</li>
 				
-				</ul>
-				
-				
-					
-			<div>
+				<li class="dropdown2">
+					<a href="javascript:void(0)" class="dropbtn2" onclick="myFunction2()">Validator</a>
+					<div class="dropdown-content2" id="myDropdown2">
+						<a href="#">HTML</a>
+						<a href="#">CSS</a>
+					</div>
+				</li>
+							
+			</ul>
+
+
+		     <div>
 				<h2>Review of FIFA 16 </h2>
 				</div>
-				
 				
 				<div id="video">
 					<iframe src="https://www.youtube.com/embed/bwz98athxQ8" frameborder="0" allowfullscreen></iframe>
 				</div>
-				
 				
 				<p class="text">
 					
@@ -78,10 +90,10 @@
 				and distance adds a new dimension to the basics of FIFA play.
 				</p>
 				
-			
-			<img src="fifa16.jpg" />
-			
-			The result of all of this is that FIFA 16 is full of scrappy back and forth, the ability to play patient possession football, 
+				<img src="fifa16.jpg" />
+			    
+			    <p class="text">
+			    The result of all of this is that FIFA 16 is full of scrappy back and forth, the ability to play patient possession football, 
 			    and a greater range of passing than ever. The dominance of pace in last year's game is over, although sometimes it does seem as 
 			    though it has been offed through foul means, with through-balls, for instance, feeling conspicuously limited, unwilling to put players 
 			    in the clear either up the lines or over the top of defences. But for the most part the new style of play--slower, grittier, but still 
@@ -96,28 +108,41 @@
 			    selection of players. Building a new team is a complex puzzle that’s different with each Draft, and winning a few games delivers substantial 
 			    rewards (my first four-game winning streak gave me a total return of around 60,000 coins, which is a fine start to the season).	
 			    </p>
+			    
+			  <div class="images">
+
+				<a href="fifa2.jpg"> <img src="fifa1.jpg"
+				alt="Fifa sixteen" /> </a>
+
+				<a href="fifa4.jpg"> <img src="fifa3.jpg"
+
+				alt="Fifa 16"
+
+				title="Games" /> </a>
+
+				<a href="home6.jpg"> <img src="home5.jpg"
+
+				alt="Fifa 16 picture"
+
+				title="Games"/> </a>
+
+			</div>
 			
 			
-			
+				<div class="buttons">
+				<button onclick="setActiveStyle('fixed')">
+					Fixed
+				</button>
 
+				<button onclick="setActiveStyle('Resizable')">
+					Resizable
+				</button>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
+				<button onclick="setActiveStyle('Mobile')">
+					Mobile
+				</button>
+			</div>
+				
+</div>
+	</body>
 </html>

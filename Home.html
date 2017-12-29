@@ -1,45 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <title>HTML</title> 
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>HTML</title>
+
+		<link rel="stylesheet" type="text/css" href="Stylesheet.css" title="fixed"/>
+		<link rel="alternate stylesheet" type="text/css" href="Stylesheet2.css" title="Resizable" />
+		<link rel="alternate stylesheet" type="text/css" href="Stylesheet3.css" title="Mobile"/>
+
+		<script type="text/javascript" src="styleswap.js"></script>
+
+		<script type="text/javascript" src="navbar.js"></script>
+		<script type="text/javascript" src="dropdown2.js"></script>
 		
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="stylesheet5.css"> 
-  
-  <script type="text/javascript" src="styleswap.js"></script>
-  <script type="text/javascript" src="navbar.js"></script>
-  
-  
-</head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width; initial-scale=1.0" />
 
 
-<body>
-  <div class="all">
- 
-  <div>
-   <h1>HOME</h1>
-  </div>
- 
-   <ul>
-		<li>
-			<a href="index.html">Home</a>
-		</li>
-				    <li class="dropdown">
+	</head>
+
+	<body>
+		<div class="all">
+			<div>
+				<h1>HOME</h1>
+			</div>
+
+			<ul>
+				<li>
+					<a href="Home.html">Home</a>
+				</li>
+				<li class="dropdown">
 					<a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Games</a>
 					<div class="dropdown-content" id="myDropdown">
 						<a href="Gta.html">GTA V</a>
 						<a href="Fifa.html">Fifa 16</a>
 					</div>
 				</li>
-				
 				<li>
 					<a href="Feedback.html">Feedback</a>
 				</li>
- </ul>
- 
- 
- <div>
+				
+				<li class="dropdown2">
+					<a href="javascript:void(0)" class="dropbtn2" onclick="myFunction2()">Validator</a>
+					<div class="dropdown-content2" id="myDropdown2">
+						<a href="http://validator.w3.org/check?uri=https://my.tech.dmu.ac.uk/~yourPnumber/ctec1412/assignment/Home.html">HTML</a>
+						<a href="http://jigsaw.w3.org/css-validator/validator?uri=https://my.tech.dmu. ac.uk/~yourPnumber/ctec1412/assignment/Home.html">CSS</a>
+					</div>
+				</li>
+							
+			</ul>
+
+			<div>
 				<h2>Games Reviews Website</h2>
 				
 <table id="t01">
@@ -104,23 +117,46 @@
 				</p>
 
 			</div>
- 
- 
- 
- 
- 
- 
- 
- 
- 
 
- 
- 
- 
- 
- 
- 
- </div>
- 
+			<div class="images">
+
+				<a href="home2.jpg"> <img src="home1.jpg"
+				alt="grand theft auto picture" /> </a>
+
+				<a href="home4.jpg"> <img src="home3.jpg"
+
+				alt="Midnight club picture"
+
+				title="Games" /> </a>
+
+				<a href="home6.jpg"> <img src="home5.jpg"
+
+				alt="Fifa 16 picture"
+
+				title="Games"/> </a>
+
+			</div>
+			
+			
+
+			<div class="buttons">
+				<button onclick="setActiveStyle('fixed')">
+					Fixed
+				</button>
+
+				<button onclick="setActiveStyle('Resizable')">
+					Resizable
+				</button>
+
+				<button onclick="setActiveStyle('Mobile')">
+					Mobile
+				</button>
+			</div>
+			
+
+
+				
+</div>
 </body>
+
 </html>

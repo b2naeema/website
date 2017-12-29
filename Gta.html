@@ -1,53 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <title>HTML</title> 
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>HTML</title>
 		
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="stylesheet5.css"> 
-  
-  <script type="text/javascript" src="styleswap.js"></script>
-  <script type="text/javascript" src="navbar.js"></script>
-  
-  
-</head>
+		<link rel="stylesheet" type="text/css" href="Stylesheet.css" title="fixed"/>
+		<link rel="alternate stylesheet" type="text/css" href="Stylesheet2.css" title="Resizable" />
+		<link rel="alternate stylesheet" type="text/css" href="Stylesheet3.css" title="Mobile"/>
+		
+		<script type="text/javascript" src="styleswap.js"></script>
+		
+		<script type="text/javascript" src="navbar.js"></script>
+		<script type="text/javascript" src="dropdown2.js"></script>
+		
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width; initial-scale=1.0" />
 
 
-<body>
+	</head>
 
-           <div class="all">	
+	<body>
+		<div class="all">	
 			<div>
 				<h1>Grand Theft Auto V</h1>
 			</div>
 
-	 <ul>
-		<li>
-			<a href="index.html">Home</a>
-		</li>
-				    <li class="dropdown">
+			<ul>
+				<li>
+					<a href="Home.html">Home</a>
+				</li>
+				<li class="dropdown">
 					<a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Games</a>
 					<div class="dropdown-content" id="myDropdown">
 						<a href="Gta.html">GTA V</a>
 						<a href="Fifa.html">Fifa 16</a>
 					</div>
 				</li>
-				
 				<li>
 					<a href="Feedback.html">Feedback</a>
 				</li>
-				
-				</ul>
-						
-				<div>
+
+				<li class="dropdown2">
+					<a href="javascript:void(0)" class="dropbtn2" onclick="myFunction2()">Validator</a>
+					<div class="dropdown-content2" id="myDropdown2">
+						<a href="#">HTML</a>
+						<a href="#">CSS</a>
+					</div>
+				</li>
+
+			</ul>
+
+			<div>
 				<h2>Review of Grand Theft Auto V</h2>
 				</div>
-				
 				
 				<div id="video">
 					<iframe src="https://www.youtube.com/embed/QkkoHAzjnUs" frameborder="0" allowfullscreen></iframe>
 				</div> 
-				
+		
+							
+								
 				<p class="text">
 					
 					Grand Theft Auto 5 is not only a preposterously enjoyable video game, but also an intelligent and sharp-tongued satire of contemporary
@@ -84,7 +98,10 @@
 					navigate an Ammunation gun store’s wares with the mouse than it is with a D-pad or arrow keys, but it’s still totally workable. It’s simply a small 
 					reminder that this wasn’t originally a PC game.
                    
-                    <img src="gtaV.jpg"/>
+                    </p>
+                    
+                    
+						<img src="gtaV.jpg"/>
 						
                     
 					<p class="text">	
@@ -103,21 +120,43 @@
 					like.
 
 				</p>
-				
+
+        <div class="images">
+
+				<a href="home2.jpg"> <img src="home1.jpg"
+				alt="grand theft auto picture 5" /> </a>
+
+				<a href="gtaV2.jpg"> <img src="gtaV1.jpg"
+
+				alt="GTA V"
+
+				title="Games" /> </a>
+
+				<a href="gtaV4.jpg"> <img src="gtaV3.jpg"
+
+				alt="GTA 5"
+
+				title="Games"/> </a>
+
+			</div>
+			
+				<div class="buttons">
+				<button onclick="setActiveStyle('fixed')">
+					Fixed
+				</button>
+
+				<button onclick="setActiveStyle('Resizable')">
+					Resizable
+				</button>
+
+				<button onclick="setActiveStyle('Mobile')">
+					Mobile
+				</button>
+			</div>
+			
 			
 
+		</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
+	</body>
 </html>
