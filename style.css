@@ -1,0 +1,589 @@
+/* main title and header font imported from google */
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial', serif; 
+  background-color: #F5F5F5;
+
+
+
+}
+/* selects all elements */
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+/* Navigation bar */
+nav ul {
+  background-color: #F5F5F5;
+  overflow: hidden;
+  color: white;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  display: block;
+   
+}
+
+#menu {
+  padding: 1em;
+  background: #fff;
+  display: block;
+}
+
+nav ul li {
+
+  display: block;
+  text-align: center; 
+  padding: 20px;
+
+
+}
+
+a:link {
+  text-decoration: none;
+  font-family: 'Montserrat'; 
+}
+
+a:visited {
+  text-decoration: none; color: black;
+}
+
+nav ul li:hover {
+  background-color: #E5E8E8;
+}
+
+/* image used on landing page */
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url('img/nature.JPG') no-repeat 50% 50%; 
+	display: table;
+	top: 0;
+	background-size: cover;
+}
+ 
+/* drop down menu for mobile sizes */
+#handle {
+    width: 100%;
+    padding: 10px 20px;
+    background: #F5F5F5;
+    text-align: right;
+    box-sizing: border-box;
+    color: black;
+    font-size: 30px;
+    display: block;
+
+
+  }
+
+
+
+.show-menu {
+  display: block;
+}
+
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle; 
+	width: 100%;
+	max-width: none;
+}
+
+.content {
+	max-width: 500px;
+	margin: 0 auto; 
+	text-align: center; 
+  font-family: 'Montserrat' , sans-serif;
+
+}
+
+.content h1 {
+	font-family: 'Montserrat', sans-serif;
+  font-size: 250%; 
+	color: #F9F3F4;
+	text-shadow: 0px 0px 300px #000;
+  letter-spacing: 2px
+
+}
+/* individual blog posts on intern page */
+.post {
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 2% 0;
+  padding: 17px;
+  overflow: auto;
+  box-sizing: border-box;
+  min-height: 33em;
+  border-radius: 10px;
+  margin: auto;
+ 
+}
+
+.post .image {
+  display: block; 
+  width: 70%;
+  margin: auto;
+
+
+}
+
+.post h2 {
+  font-family: 'Montserrat' , sans-serif ;
+  text-align: center;
+
+}
+
+.post h3 {
+  font-family: 'Montserrat' , sans-serif ;
+  color: grey;
+  text-align: center;
+
+}
+
+
+
+.blog h1 {
+  font-family: 'Montserrat' , sans-serif ;
+  text-align: center;
+  bottom: 20px;
+
+
+}
+/* like buttom */
+.button {
+  box-shadow: 1px 1px 0 rgba(255,255,255,0.5) inset;
+  border-radius: 3px;
+  border: 1px solid;
+  display: inline-block;
+  height: 18px;
+  line-height: 18px;
+  padding: 0 8px;
+  position: relative;
+
+  font-size: 12px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+/* gover effect with red colour  */
+.button:hover,
+.button.active {
+  text-shadow: 0 1px 0 #b12f27;
+  background-color: #f64136;
+  border-color: #b12f27;
+}
+
+.btn:active { box-shadow: 0 0 5px 3px rgba(0,0,0,0.2) inset; }
+.btn span { color: #f64136; }
+.btn:hover, .btn:hover span,
+.btn.active, .btn.active span { color: #eeeeee; }
+.btn:active span {
+  color: #b12f27;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+}
+
+.like-button {
+  padding: 10px 0;
+  text-align: center;
+}
+
+
+.banner {
+  width: 100%; 
+  display: block;
+}
+
+.banner > .banner-image {
+  width: 100%;
+  display: block;
+
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+  margin-top:50px;
+}
+/* Positioning google maps */
+#map_container{
+  position: relative;
+}
+#map{
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 22.25%;
+    padding-top: 30px;
+    position: relative;
+}
+
+h2 {
+  font-family: 'Montserrat' , sans-serif ;
+  text-align: center;
+}
+p {
+	font-size:80%; 
+	line-height: 200%;
+	text-align: justify;
+	margin: 3%;
+	font-family: sans-serif; 
+}
+
+.social li {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  float: none;
+}
+
+.social i {
+  color: #FFFFFF;
+  font-size: 175%;
+  opacity: 1;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  
+  padding: 3%;
+  box-sizing: border-box;
+}
+
+/* Styling of social media icons colours */
+.social i:hover {
+  opacity: .6;
+}
+#facebook {
+  background: #3A5795;
+}
+#google-plus {
+  background: #095232;
+}
+#twitter {
+  background: #5EA9DD;
+}
+#youtube {
+  background: #E12B27; 
+}
+#instagram {
+  background: #527FA4; 
+}
+#email {
+  background: #C92C19;
+}
+/*  */
+.pimg1, .pimg2, .pimg3 {
+  position:relative;
+  opacity: 0.90;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* 
+   fixed = parallax
+   scroll = normal
+
+  */
+  background-attachment: fixed;
+}
+
+/* Images used for parallax effect */
+.pimg1{
+  background-image:url(img/hkapartment.jpeg); 
+  min-height: 100%
+}
+
+.pimg2{
+  background-image:url(img/greatwall.jpg); 
+  min-height: 100%
+}
+
+.pimg3{
+  background-image:url(img/shanghai.jpg); 
+  min-height: 100%
+}
+
+.travel-content{
+  font-size: 100%; 
+  line-height: 200%;
+  text-align: center;
+  margin: 3%;
+  font-family: sans-serif; 
+}
+
+/* Gallery styling using flexbox layout */
+.gallery {
+  margin: .5vw;
+  font-size: 0;
+  display: -ms-flexbox; 
+  -ms-flexbox-wrap: wrap;
+  -ms-flexbox-direction: column;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-box; 
+  display: flex;
+  
+}
+
+.gallery div {
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  width: 200px;
+  margin: .5vw;
+}
+
+.gallery div img {
+  width: 100%;
+  height: auto;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+/* Home page landing breakpoint */
+
+@media screen and (min-width: 600px) {
+	.content h1 {
+		
+    font-size: 500%;
+
+	}
+  p {
+      
+      font-size: 110%; 
+      line-height: 210%;
+      font-family: sans-serif; 
+  }
+}
+/* navigaion bar breakpoint */
+@media screen and (min-width: 580px){
+  #handle {
+    display: none;
+  }
+  
+ nav ul {
+  width: 100%;
+  display: inline-block;
+  transition: max-height; 
+ }
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+  }
+
+  #menu {
+    display: none;
+  }
+
+}
+/* social media links breakpoimt */
+
+@media screen and (min-width: 980px) {
+    h1 {
+        font-size: 200%;
+
+    }
+    .social i {
+        padding: 4%;
+        font-size: 190%;
+        
+    }
+    .social li {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 578px) {
+    h1 {
+        font-size: 150%;
+        padding: 2%;
+    }
+    .social i {
+        font-size: 125%;
+        padding: 2%;
+    }
+    .social li {
+        
+        width: 16.6666667%;
+        
+        float: left;
+    }
+
+/* blog post breakpoint */
+@media screen and (min-width: 700px) {
+  .banner > .banner-image {
+  width: 100%;
+  display: block;
+}
+
+  .post.image {
+    display: block; 
+  width: 50%;
+  margin: auto;
+  }
+
+  p {
+  font-size: 110%; 
+  line-height: 210%;
+
+    }
+}
+
+/* Gallery breakpoint */
+
+@media screen and (min-width: 400px){
+    .gallery-div {
+     -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  width: 200px;
+  margin: 0;
+
+      }
+
+    .gallery {
+
+  margin: 0;
+  font-size: 0;
+  display: -ms-flexbox; 
+  -ms-flexbox-wrap: wrap;
+  -ms-flexbox-direction: column;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-box; 
+  display: flex;
+    }
+}
+
+
