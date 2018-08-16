@@ -15,3 +15,9 @@ like button gives 1 like per click.
 Css styles of all sorts are applied successfully.
 
 For the menu bar to work correctly, you have to click on the text to navigate to the next page. If you click on the hover box then it doesn't function.
+
+
+Refrences:
+https://www.sixt.co.uk/
+https://www.hertz.co.uk/rentacar/reservation/
+https://www.google.co.uk/ (for images).
